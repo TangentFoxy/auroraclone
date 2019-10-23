@@ -1,0 +1,18 @@
+pressure = g * ?
+9300000 = 8.87 * ?
+1,048,478 (or 1x10^6) (Earth 1x10^4)
+
+
+1.7x10^2 -> 0.0063atm, 120km  | 3.72 m/s^2
+1x10^4 -> 1atm, 120km         | 9.8  m/s^2
+1x10^6 -> 91.7atm, 250km      | 8.87 m/s^2
+
+
+x = cos(t / radius) -> T = 2pi * radius
+
+star variables -> light output
+ energy received (light based on distance)
+ + terrestrial values (magnetosphere, composition) -> atmospheric composition
+  atmospheric composition -> habitability (plus mineral availability)
+
+636 = 3.72 m/s^2 * ?

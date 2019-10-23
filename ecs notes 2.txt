@@ -1,0 +1,15 @@
+# MapDisplay
+
+NO Grabs all position and orbit components with a specific system.
+
+# Systems
+
+* GodMapDisplay: for all system components == this system:
+                  for all position and orbit components, display
+
+# Components
+
+* orbit: parent_id, radius, offset, hierarchy, speed_parameter
+  - note: L4/L5 positions are stored as their own orbits
+* id:
+* x,y,system_id: position in a system

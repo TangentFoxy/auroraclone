@@ -1,0 +1,99 @@
+- systems
+  - stars, planets, nebulae, black holes, moons, asteroids, comets
+  - habitability
+  - multistar systems, binary systems
+  - ruins
+  - conquest tech
+- task group / fleet design
+  - take into account presence of tankers for extended range
+  - colliers -> extended capacity to fire
+- module design
+- structure design
+- event log
+- jumping
+  - gate
+  - module
+  - tender
+
+
+
+
+- research
+  - biology
+    - terraforming
+      - terraforming rate
+  - construction/production
+    - tn technology (required for all)
+    - orbital mining
+    - construction rate ++
+    - expand civilian economy ++
+    - fuel production rate ++
+    - small jump gate constructor
+      - jump gate constructor
+    - mining production ++
+    - research rate ++
+    - shipbuilding rate ++
+    - shipyard operations faster
+    - maintenance efficiency ?
+    - gas harvester tech
+    - underground excavation? infrastructure efficiency?
+      - should allow development on planets without sufficient gravity -> underground
+  - defensive
+    - armor: ..whole bunch of levels
+    - damage control ++
+    - thermal signature reduction ++
+  - logisitics / ground combat
+    - hanger
+    - cargo handling system
+    - colonization cost reduction?
+    - fuel storage techs
+    - cryo transport: three levels
+    - engineering section
+    - combat drop modules
+    - orbital hab
+    - tractor beam
+    - recreational module
+    - salvage module
+    - troop bay
+    - several ground units
+  - kinetic weapons
+    - railgun caliber ++
+    - railgun launch velocity ++
+    - gauss cannon launch velocity ++
+    - gauss cannon rate of fire ++
+    - gauss cannon accuracy ++
+  - power / propulsion
+    - capacitor recharge rate
+    - fuel consumption
+    - jump drive efficiency
+    - max jump squadron size
+    - max jump squadron radius
+    - max engine power modifier
+    - min engine power modifier
+    - min jump engine size
+    - reactor power boost
+    - engine techs
+    - reactor techs
+
+----
+
+# Ship Design Checklist:
+
+- Does the game show any design errors in the box on the lower right?
+- Do you have an engine? You need to design one first.
+- Do you have enough fuel? The typical distance between two systems is somewhere between one and five billion km, with the average being about 3 billion km.
+- Is your jump engine capable of jumping every ship that you want it to? A jump engine with a capacity of 10,000 tons mounted on a 7,000-ton ship can jump only ships up to 7,000 tons, not 10,000.
+- Do you know the difference between military and commercial jump drives?
+- For military ships: Do you have at least enough MSPs to repair the worst malfunction (Max Repair)?
+- If you intend your ship to be able to repair battle damage: Do you have at least twice the MSPs of your Max Repair value?
+- For missile warships: do you have a magazine? Each launcher adds some magazine capacity, but you might want reloads.
+- Do you have the maintenance facilities to support a ship of this size? If not, your ship will use up all its MSPs and then slowly disintegrate.
+- Do you have a shipyard large enough to build it?
+- If this is meant to be a refit of an existing class: is this refit cheaper than scrapping and building a new ship?
+- If you copied an existing design: did you develop better armor tech since designing the old class? The copied design still uses the old armor.
+- If you want to shoot down enemy missiles - do you have a resolution-1 sensor in your task group?
+- Do you have enough power plants to power your beam weapons? Note the box on the lower left.
+- For carriers: did you reserve Flight Crew berths (check the "Keep Excess Q" box on the upper right)?
+- For tankers/colliers: did you check the appropriate box on the upper right?
+- For freighters/colony ships: did you include a Cargo Handling System?
+- For salvage ships: did you include a cargo hold?
