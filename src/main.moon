@@ -1,4 +1,5 @@
 tiny = require "tiny"
+MapDisplay = require "generators/MapDisplay"
 
 systems = {}
 for name in *love.filesystem.getDirectoryItems "systems"
@@ -17,11 +18,14 @@ makeEntity = (tab) ->
   return tab
 
 world = tiny.world game, unpack systems
+local map
 
 system = ->
+  system_id = "someuuidthing"
   sun = makeEntity {
     x: 0,
     y: 0
+    [system_id]: true
   }
   planet = makeEntity {
     orbit: {
@@ -31,8 +35,11 @@ system = ->
       offset: love.math.random!
       speed_parameter: 0.5
     }
+    [system_id]: true
   }
+  map = MapDisplay system_id
   world\add sun, planet
+  world\add map
 
 system!
 
@@ -40,7 +47,7 @@ love.update = (dt) ->
   world\update dt
 
 love.draw = ->
-  systems.MapDisplay\draw game.time
+  map\draw game.time
 
 love.keypressed = (key) ->
   if key == "escape" love.event.quit!
