@@ -13,3 +13,13 @@ NO Grabs all position and orbit components with a specific system.
   - note: L4/L5 positions are stored as their own orbits
 * id:
 * x,y,system_id: position in a system
+
+# Notes
+
+- Model populations as their own entities.
+- Minerals on a body can be mined.
+- Minerals on a population have already been mined, and can be used.
+- Consider splitting MapDisplay's version of bodies from the reality?
+  - Reason A: It will also need to store contacts, and should not always have all info
+  - Reason B: Orbital positions should only be updated by an orbital processor when needed
+  - Reason C: Reduce duplication by making the orbital processor the only thing that updates positions?
