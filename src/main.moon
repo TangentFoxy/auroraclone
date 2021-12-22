@@ -20,10 +20,11 @@ world = tiny.world game, unpack systems
 
 system = ->
   sun = makeEntity {
-    x: 0,
-    y: 0
+    x: 0, y: 0
+    radius: 5
   }
   planet = makeEntity {
+    radius: 1
     orbit: {
       hierarchy: 1
       radius: 20

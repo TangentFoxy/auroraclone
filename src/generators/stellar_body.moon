@@ -1,8 +1,8 @@
 -- TODO defined globals need to be created somewhere else
-export stefan_boltzmann_constant = 5.670373e-8 -- W / (m^2 * K^4)
+export stefan_boltzmann_constant = 5.670374419e-8 -- W / (m^2 * K^4)
 
 parameters = {
-  temperature = love.math.randomNormal 1000, 6000 -- [2000, 1e4] K
+  temperature: love.math.randomNormal 1000, 6000 -- [2000 to 10000] K
 }
 
 parameters.absolute_magnitude = 35.4631241560502 * math.exp(-0.000353006569939 * parameters.temperature) -- Mv

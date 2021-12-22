@@ -20,14 +20,14 @@ MapDisplay = tiny.sortedSystem {
         orbit = entity.orbit
         -- orbital period
         --  real: T = 2pi * sqrt(a^3 / G*M)
-        --  sim:  T = 2pi * speed_parameter
-        entity.x = orbit.radius * cos(t / orbit.speed_parameter) + orbit.offset
-        entity.y = orbit.radius * sin(t / orbit.speed_parameter) + orbit.offset
+        --  sim:  T = 2pi / speed_parameter
+        entity.x = orbit.radius * cos(t * orbit.speed_parameter) + orbit.offset
+        entity.y = orbit.radius * sin(t * orbit.speed_parameter) + orbit.offset
         if orbit.parent_id
           parent = IDTracker[orbit.parent_id]
           entity.x += parent.x
           entity.y += parent.y
-      graphics.circle "fill", entity.x, entity.y, 5 -- TEMP radius
+      graphics.circle "fill", entity.x, entity.y, entity.radius
 }
 
 return MapDisplay
